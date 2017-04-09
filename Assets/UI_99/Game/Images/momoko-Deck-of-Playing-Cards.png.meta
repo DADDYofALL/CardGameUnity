@@ -1,0 +1,856 @@
+fileFormatVersion: 2
+guid: 3fde00bcfb249994a8302a6ae3ef6b2c
+timeCreated: 1491641819
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: momoko-Deck-of-Playing-Cards_0
+    21300002: momoko-Deck-of-Playing-Cards_1
+    21300004: momoko-Deck-of-Playing-Cards_2
+    21300006: momoko-Deck-of-Playing-Cards_3
+    21300008: momoko-Deck-of-Playing-Cards_4
+    21300010: momoko-Deck-of-Playing-Cards_5
+    21300012: momoko-Deck-of-Playing-Cards_6
+    21300014: momoko-Deck-of-Playing-Cards_7
+    21300016: momoko-Deck-of-Playing-Cards_8
+    21300018: momoko-Deck-of-Playing-Cards_9
+    21300020: momoko-Deck-of-Playing-Cards_10
+    21300022: momoko-Deck-of-Playing-Cards_11
+    21300024: momoko-Deck-of-Playing-Cards_12
+    21300026: momoko-Deck-of-Playing-Cards_13
+    21300028: momoko-Deck-of-Playing-Cards_14
+    21300030: momoko-Deck-of-Playing-Cards_15
+    21300032: momoko-Deck-of-Playing-Cards_16
+    21300034: momoko-Deck-of-Playing-Cards_17
+    21300036: momoko-Deck-of-Playing-Cards_18
+    21300038: momoko-Deck-of-Playing-Cards_19
+    21300040: momoko-Deck-of-Playing-Cards_20
+    21300042: momoko-Deck-of-Playing-Cards_21
+    21300044: momoko-Deck-of-Playing-Cards_22
+    21300046: momoko-Deck-of-Playing-Cards_23
+    21300048: momoko-Deck-of-Playing-Cards_24
+    21300050: momoko-Deck-of-Playing-Cards_25
+    21300052: momoko-Deck-of-Playing-Cards_26
+    21300054: momoko-Deck-of-Playing-Cards_27
+    21300056: momoko-Deck-of-Playing-Cards_28
+    21300058: momoko-Deck-of-Playing-Cards_29
+    21300060: momoko-Deck-of-Playing-Cards_30
+    21300062: momoko-Deck-of-Playing-Cards_31
+    21300064: momoko-Deck-of-Playing-Cards_32
+    21300066: momoko-Deck-of-Playing-Cards_33
+    21300068: momoko-Deck-of-Playing-Cards_34
+    21300070: momoko-Deck-of-Playing-Cards_35
+    21300072: momoko-Deck-of-Playing-Cards_36
+    21300074: momoko-Deck-of-Playing-Cards_37
+    21300076: momoko-Deck-of-Playing-Cards_38
+    21300078: momoko-Deck-of-Playing-Cards_39
+    21300080: momoko-Deck-of-Playing-Cards_40
+    21300082: momoko-Deck-of-Playing-Cards_41
+    21300084: momoko-Deck-of-Playing-Cards_42
+    21300086: momoko-Deck-of-Playing-Cards_43
+    21300088: momoko-Deck-of-Playing-Cards_44
+    21300090: momoko-Deck-of-Playing-Cards_45
+    21300092: momoko-Deck-of-Playing-Cards_46
+    21300094: momoko-Deck-of-Playing-Cards_47
+    21300096: momoko-Deck-of-Playing-Cards_48
+    21300098: momoko-Deck-of-Playing-Cards_49
+    21300100: momoko-Deck-of-Playing-Cards_50
+    21300102: momoko-Deck-of-Playing-Cards_51
+    21300104: momoko-Deck-of-Playing-Cards_52
+    21300106: momoko-Deck-of-Playing-Cards_53
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 752
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 752
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_3
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 752
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_4
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 752
+        width: 166
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 752
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_6
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 752
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_7
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 752
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_8
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 752
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_9
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 752
+        width: 166
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_10
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 752
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_11
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 752
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_12
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 752
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_13
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 752
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_15
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 501
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_16
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 501
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_17
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 501
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_18
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 501
+        width: 166
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_19
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 501
+        width: 164
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_20
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 501
+        width: 164
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_21
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 501
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_22
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 501
+        width: 166
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_23
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 501
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_24
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 501
+        width: 164
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_25
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 501
+        width: 164
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_26
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 501
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_27
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 501
+        width: 163
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 163
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_29
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 248
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_30
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 248
+        width: 164
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_31
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 248
+        width: 164
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_32
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 248
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_33
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 248
+        width: 166
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_34
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 248
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_35
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 248
+        width: 164
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_36
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 248
+        width: 164
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_37
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 248
+        width: 166
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_38
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 248
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_39
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 248
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_40
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 248
+        width: 165
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 163
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_42
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_43
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 0
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_44
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_45
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 0
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_46
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 0
+        width: 166
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_47
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 0
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_48
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 0
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_49
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 0
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_50
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 0
+        width: 166
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_51
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 0
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_52
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 0
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: momoko-Deck-of-Playing-Cards_53
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 0
+        width: 165
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
