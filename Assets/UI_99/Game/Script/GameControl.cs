@@ -58,7 +58,7 @@ public class GameControl : MonoBehaviour {
 		//draw initial card 
 		while (true){
 			GameObject Icard = deck.GetComponent<DeckScript>().draw();
-			Calculate(Icard.GetComponent<CardScript>().getCard());
+			Calculate(Icard.GetComponent<CardScript>().getCard(),true);
 			if (point > 0) {
 				panel.GetComponent<PanelControl>().addCard(Icard);
 				break;
@@ -67,16 +67,21 @@ public class GameControl : MonoBehaviour {
 				Destroy (Icard);
 			}
 		}
+		for (int i = 1; i < 4; i++) {
+			EnermyText [i].GetComponent<Text> ().enabled = false;
+		}
 
 		Points.text = "POINTS\n" + point;
 	}
 
 	//Do when click Button and AI
 	bool DebugButton;
+
+
 	public void ButtonDown() {
 
 		//StopAllCoroutines();
-
+		GameObject Pcard = new GameObject ();
 		DebugButton = false;
 		if (currentPlayerIndex == 0) {
 			int index = -1;
@@ -86,7 +91,7 @@ public class GameControl : MonoBehaviour {
 				Points.text = "YOU WIN\n";
 			}
 
-			GameObject Pcard = new GameObject ();
+			//GameObject Pcard = new GameObject ();
 			foreach (GameObject card in players[0].GetComponent<PlayerScript>()	.myCard) {
 				if (card != null) {
 					//play card that selected
@@ -103,6 +108,11 @@ public class GameControl : MonoBehaviour {
 					}
 				}
 			}
+
+			//delay
+
+
+			//draw();
 			if (DebugButton) {
 				//button uninteractable
 				TurnEndo.interactable = false;
@@ -117,7 +127,7 @@ public class GameControl : MonoBehaviour {
 
 
 
-				if (Calculate (Pcard.GetComponent<CardScript> ().getCard ())) {
+				if (Calculate (Pcard.GetComponent<CardScript> ().getCard () , false)){
 					Debug.Log ("Player Dead");
 					Points.text = "Player Dead\n";
 					canvasLose.gameObject.SetActive(true);
@@ -168,6 +178,7 @@ public class GameControl : MonoBehaviour {
 	}
 
 	void AI (){
+		
 		//Discard first card
 		GameObject card = players [currentPlayerIndex].GetComponent<PlayerScript> ().myCard [0];
 		players [currentPlayerIndex].GetComponent<PlayerScript> ().myCard.RemoveAt (0);
@@ -182,7 +193,7 @@ public class GameControl : MonoBehaviour {
 
 
 		//calculate point
-		if (Calculate (card.GetComponent<CardScript> ().getCard ())) {
+		if (Calculate (card.GetComponent<CardScript> ().getCard (), false)) {
 			Debug.Log ("Enemy " + currentPlayerIndex + " is Dead");
 			EnermyText [currentPlayerIndex].text = "Dead\n";
 			isDead [currentPlayerIndex] = true;
@@ -207,6 +218,7 @@ public class GameControl : MonoBehaviour {
 			Points.text = "YOU WIN\n";
 		}
 		//next player
+		 
 		NextPlayer ();	
 
 		//if not Next player play
@@ -216,6 +228,8 @@ public class GameControl : MonoBehaviour {
 			TurnEndo.interactable = true;
 	}
 
+    
+
 
 	//int[] soundtime = { };
 	//int soundindex;
@@ -224,8 +238,9 @@ public class GameControl : MonoBehaviour {
 	{
 		Debug.Log ( "start" + Time.time);
 		//
-
+		EnermyText [currentPlayerIndex].GetComponent<Text> ().enabled = true ; 
 		yield return new WaitForSeconds (5);
+		EnermyText [currentPlayerIndex].GetComponent<Text> ().enabled = false ;
 		AI ();
 		Debug.Log ( "End" + Time.time);
 	}
@@ -238,58 +253,71 @@ public class GameControl : MonoBehaviour {
 			currentPlayerIndex = 3;
 	}
 
-	public bool Calculate(Card card){
+	public bool Calculate(Card card, bool isInitial){
 		int temp = point;
 		switch(card.value ){
 		case Card.Value.ACE:
 			point +=1;
+			if(!isInitial)
 			XXX[0].Play ();
 			break;
 		case Card.Value.TWO: 
 			point +=2;
+			if(!isInitial)
 			XXX[1].Play ();
 			break;
 		case Card.Value.THREE:	
 			point = 99;
+			if(!isInitial)
 			XXX[2].Play ();
 			break;
 		case Card.Value.FOUR:
+			if(!isInitial)
 			XXX[3].Play ();
 			break;	
 		case Card.Value.FIVE:
 			point +=5;
+			if(!isInitial)
 			XXX[4].Play ();
 			break;
 		case Card.Value.SIX:
 			point += 6;
+			if(!isInitial)
 			XXX[5].Play ();
 			break;
 		case Card.Value.SEVEN:
 			point += 7;
+			if(!isInitial)
 			XXX[6].Play ();
 			break;
 		case Card.Value.EIGHT:
 			point += 8;
+			if(!isInitial)
 			XXX[7].Play ();
 			break;
 		case Card.Value.NINE:
 			point -= 9;
+			if(!isInitial)
 			XXX[8].Play ();
 			break;
 		case Card.Value.TEN:
 			point -= 10;
+			if(!isInitial)
 			XXX[9].Play ();
 			break;
 		case Card.Value.JACK:
 			currentDirection *= -1;
+			if(!isInitial)
 			XXX[10].Play ();
 			break;
 		case Card.Value.QUEEN:
 			point += 10;
+			if(!isInitial)
 			XXX[11].Play ();
 			break;
 		case Card.Value.KING:
 			point += 10;
+			if(!isInitial)
 			XXX[12].Play ();
 			break;
 		default: break;

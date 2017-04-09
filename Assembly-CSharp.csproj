@@ -58,6 +58,7 @@
      <Compile Include="Assets\UI_99\Game\GamePlay\TutorialShow.cs" />
      <Compile Include="Assets\UI_99\Game\Script\AudioController.cs" />
      <Compile Include="Assets\UI_99\Game\Script\Card.cs" />
+     <Compile Include="Assets\UI_99\Game\Script\CardAnimation.cs" />
      <Compile Include="Assets\UI_99\Game\Script\CardScript.cs" />
      <Compile Include="Assets\UI_99\Game\Script\CardSelect.cs" />
      <Compile Include="Assets\UI_99\Game\Script\DeckScript.cs" />

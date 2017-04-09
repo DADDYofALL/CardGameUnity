@@ -1,2 +1,4 @@
 obj/
 Temp/
+*.exe
+*_Data/
