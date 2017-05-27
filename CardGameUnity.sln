@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{09DE70F0-8773-57F8-234F-56887CAC1CA4}") = "CardGameUnity", "Assembly-CSharp.csproj", "{1342A86D-308C-1E44-A3AD-41C7C3B11EFF}"
+EndProject
+Project("{09DE70F0-8773-57F8-234F-56887CAC1CA4}") = "CardGameUnity", "Assembly-CSharp-Editor.csproj", "{D4603377-344D-C7F7-7FD7-D725C69A2500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1342A86D-308C-1E44-A3AD-41C7C3B11EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1342A86D-308C-1E44-A3AD-41C7C3B11EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1342A86D-308C-1E44-A3AD-41C7C3B11EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1342A86D-308C-1E44-A3AD-41C7C3B11EFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4603377-344D-C7F7-7FD7-D725C69A2500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4603377-344D-C7F7-7FD7-D725C69A2500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4603377-344D-C7F7-7FD7-D725C69A2500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4603377-344D-C7F7-7FD7-D725C69A2500}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
